@@ -24,9 +24,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/admin-lte/dist/css/adminlte.min.css",
+              "node_modules/jqvmap-novulnerability/dist/jqvmap.min.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/admin-lte/dist/js/adminlte.min.js",
+              "node_modules/jqvmap-novulnerability/dist/jquery.vmap.min.js",
+              "node_modules/chart.js/dist/Chart.bundle.min.js"
+          ]
           },
           "configurations": {
             "production": {
